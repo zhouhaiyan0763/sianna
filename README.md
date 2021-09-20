@@ -1,3 +1,28 @@
+# How to build
+
+in ~/.bashrc
+```bash
+vi ~/.bashrc
+    export PIPENV_VENV_IN_PROJECT=false
+    export PIP_USER=no
+    #export PYTHONUSERBASE=/workspace/.pip-modules
+    #export PATH=$PYTHONUSERBASE/bin:$PATH
+    unset PIP_TARGET
+    unset PYTHONPATH
+
+sudo apt-get install libusb-1.0-0-dev
+```
+
+```bash
+git clone https://github.com/espressif/esp-idf.git -b release/v4.2
+git checkout v4.2
+git submodule update --init --recursive
+cd esp-idf
+./install.sh
+
+```
+
+
 # A C template on Gitpod
 
 This is a [C](https://en.wikipedia.org/wiki/The_C_Programming_Language) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).

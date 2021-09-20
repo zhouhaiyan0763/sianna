@@ -1,0 +1,22 @@
+
+
+[submodule "sianna/external/tuya/tuya-iot-link-sdk-embedded-c"]
+	path = sianna/external/tuya/tuya-iot-link-sdk-embedded-c
+	url = https://github.com/tuya/tuya-iot-link-sdk-embedded-c.git
+
+[submodule "sianna/external/homekit/esp-apple-homekit-adk"]
+	path = sianna/external/homekit/esp-apple-homekit-adk
+	url = https://github.com/espressif/esp-apple-homekit-adk.git
+
+[submodule "sianna/external/ali-smartliving/esp-ali-smartliving"]
+	path = sianna/external/ali-smartliving/esp-ali-smartliving
+	url = https://github.com/espressif/esp-ali-smartliving
+
+[submodule "sianna/lv_micropython"]
+	path = sianna/lv_micropython
+	url = https://github.com/lvgl/lv_micropython.git
+
+[submodule "sianna/esp-idf"]
+	path = sianna/esp-idf
+	url = https://github.com/espressif/esp-idf.git
+
